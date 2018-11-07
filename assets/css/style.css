@@ -306,7 +306,7 @@ input[type=submit] {
   }
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   body {
     background-color: #333;
   }
@@ -317,15 +317,26 @@ input[type=submit] {
     padding: 20px;
   }
 
-  /* #masthead,
-  #main-content { */
+  #masthead,
+  #main-content {
     width: 100%;
     position: relative;
   }
+  #masthead {
+    width: 650px;
+    margin-left: -55px;
+  }
+  .main-section{
+  width: 545px;
+  margin-top: -136px;
+  }
+  footer {
+    width: 650px;
+  }
 
-  /* #main-content { */
-    /* margin-top: 20px; */
-    position: relative; */
+  #main-content {
+    margin-top: 20px;
+    position: relative;
   }
 }
 
